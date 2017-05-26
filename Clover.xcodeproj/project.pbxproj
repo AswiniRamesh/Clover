@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDFB75A31ED898C9002F5AED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75A21ED898C9002F5AED /* main.m */; };
+		DDFB75A61ED898C9002F5AED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75A51ED898C9002F5AED /* AppDelegate.m */; };
+		DDFB75A91ED898C9002F5AED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75A81ED898C9002F5AED /* ViewController.m */; };
+		DDFB75AC1ED898C9002F5AED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFB75AA1ED898C9002F5AED /* Main.storyboard */; };
+		DDFB75AE1ED898C9002F5AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFB75AD1ED898C9002F5AED /* Assets.xcassets */; };
+		DDFB75B11ED898C9002F5AED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFB75AF1ED898C9002F5AED /* LaunchScreen.storyboard */; };
+		DDFB75BC1ED898C9002F5AED /* CloverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75BB1ED898C9002F5AED /* CloverTests.m */; };
+		DDFB75C71ED898C9002F5AED /* CloverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75C61ED898C9002F5AED /* CloverUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDFB75B81ED898C9002F5AED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFB75961ED898C9002F5AED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFB759D1ED898C9002F5AED;
+			remoteInfo = Clover;
+		};
+		DDFB75C31ED898C9002F5AED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDFB75961ED898C9002F5AED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDFB759D1ED898C9002F5AED;
+			remoteInfo = Clover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDFB759E1ED898C9002F5AED /* Clover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFB75A21ED898C9002F5AED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDFB75A41ED898C9002F5AED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDFB75A51ED898C9002F5AED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDFB75A71ED898C9002F5AED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDFB75A81ED898C9002F5AED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDFB75AB1ED898C9002F5AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDFB75AD1ED898C9002F5AED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDFB75B01ED898C9002F5AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDFB75B21ED898C9002F5AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFB75B71ED898C9002F5AED /* CloverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFB75BB1ED898C9002F5AED /* CloverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloverTests.m; sourceTree = "<group>"; };
+		DDFB75BD1ED898C9002F5AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFB75C21ED898C9002F5AED /* CloverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFB75C61ED898C9002F5AED /* CloverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloverUITests.m; sourceTree = "<group>"; };
+		DDFB75C81ED898C9002F5AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDFB759B1ED898C9002F5AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFB75B41ED898C9002F5AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFB75BF1ED898C9002F5AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDFB75951ED898C9002F5AED = {
+			isa = PBXGroup;
+			children = (
+				DDFB75A01ED898C9002F5AED /* Clover */,
+				DDFB75BA1ED898C9002F5AED /* CloverTests */,
+				DDFB75C51ED898C9002F5AED /* CloverUITests */,
+				DDFB759F1ED898C9002F5AED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDFB759F1ED898C9002F5AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB759E1ED898C9002F5AED /* Clover.app */,
+				DDFB75B71ED898C9002F5AED /* CloverTests.xctest */,
+				DDFB75C21ED898C9002F5AED /* CloverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDFB75A01ED898C9002F5AED /* Clover */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB75A41ED898C9002F5AED /* AppDelegate.h */,
+				DDFB75A51ED898C9002F5AED /* AppDelegate.m */,
+				DDFB75A71ED898C9002F5AED /* ViewController.h */,
+				DDFB75A81ED898C9002F5AED /* ViewController.m */,
+				DDFB75AA1ED898C9002F5AED /* Main.storyboard */,
+				DDFB75AD1ED898C9002F5AED /* Assets.xcassets */,
+				DDFB75AF1ED898C9002F5AED /* LaunchScreen.storyboard */,
+				DDFB75B21ED898C9002F5AED /* Info.plist */,
+				DDFB75A11ED898C9002F5AED /* Supporting Files */,
+			);
+			path = Clover;
+			sourceTree = "<group>";
+		};
+		DDFB75A11ED898C9002F5AED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB75A21ED898C9002F5AED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDFB75BA1ED898C9002F5AED /* CloverTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB75BB1ED898C9002F5AED /* CloverTests.m */,
+				DDFB75BD1ED898C9002F5AED /* Info.plist */,
+			);
+			path = CloverTests;
+			sourceTree = "<group>";
+		};
+		DDFB75C51ED898C9002F5AED /* CloverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDFB75C61ED898C9002F5AED /* CloverUITests.m */,
+				DDFB75C81ED898C9002F5AED /* Info.plist */,
+			);
+			path = CloverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDFB759D1ED898C9002F5AED /* Clover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFB75CB1ED898C9002F5AED /* Build configuration list for PBXNativeTarget "Clover" */;
+			buildPhases = (
+				DDFB759A1ED898C9002F5AED /* Sources */,
+				DDFB759B1ED898C9002F5AED /* Frameworks */,
+				DDFB759C1ED898C9002F5AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clover;
+			productName = Clover;
+			productReference = DDFB759E1ED898C9002F5AED /* Clover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDFB75B61ED898C9002F5AED /* CloverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFB75CE1ED898C9002F5AED /* Build configuration list for PBXNativeTarget "CloverTests" */;
+			buildPhases = (
+				DDFB75B31ED898C9002F5AED /* Sources */,
+				DDFB75B41ED898C9002F5AED /* Frameworks */,
+				DDFB75B51ED898C9002F5AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFB75B91ED898C9002F5AED /* PBXTargetDependency */,
+			);
+			name = CloverTests;
+			productName = CloverTests;
+			productReference = DDFB75B71ED898C9002F5AED /* CloverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDFB75C11ED898C9002F5AED /* CloverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDFB75D11ED898C9002F5AED /* Build configuration list for PBXNativeTarget "CloverUITests" */;
+			buildPhases = (
+				DDFB75BE1ED898C9002F5AED /* Sources */,
+				DDFB75BF1ED898C9002F5AED /* Frameworks */,
+				DDFB75C01ED898C9002F5AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDFB75C41ED898C9002F5AED /* PBXTargetDependency */,
+			);
+			name = CloverUITests;
+			productName = CloverUITests;
+			productReference = DDFB75C21ED898C9002F5AED /* CloverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDFB75961ED898C9002F5AED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Aswini Ramesh";
+				TargetAttributes = {
+					DDFB759D1ED898C9002F5AED = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DDFB75B61ED898C9002F5AED = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DDFB759D1ED898C9002F5AED;
+					};
+					DDFB75C11ED898C9002F5AED = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DDFB759D1ED898C9002F5AED;
+					};
+				};
+			};
+			buildConfigurationList = DDFB75991ED898C9002F5AED /* Build configuration list for PBXProject "Clover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDFB75951ED898C9002F5AED;
+			productRefGroup = DDFB759F1ED898C9002F5AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDFB759D1ED898C9002F5AED /* Clover */,
+				DDFB75B61ED898C9002F5AED /* CloverTests */,
+				DDFB75C11ED898C9002F5AED /* CloverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDFB759C1ED898C9002F5AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFB75B11ED898C9002F5AED /* LaunchScreen.storyboard in Resources */,
+				DDFB75AE1ED898C9002F5AED /* Assets.xcassets in Resources */,
+				DDFB75AC1ED898C9002F5AED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFB75B51ED898C9002F5AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFB75C01ED898C9002F5AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDFB759A1ED898C9002F5AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFB75A91ED898C9002F5AED /* ViewController.m in Sources */,
+				DDFB75A61ED898C9002F5AED /* AppDelegate.m in Sources */,
+				DDFB75A31ED898C9002F5AED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFB75B31ED898C9002F5AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFB75BC1ED898C9002F5AED /* CloverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDFB75BE1ED898C9002F5AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFB75C71ED898C9002F5AED /* CloverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDFB75B91ED898C9002F5AED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFB759D1ED898C9002F5AED /* Clover */;
+			targetProxy = DDFB75B81ED898C9002F5AED /* PBXContainerItemProxy */;
+		};
+		DDFB75C41ED898C9002F5AED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDFB759D1ED898C9002F5AED /* Clover */;
+			targetProxy = DDFB75C31ED898C9002F5AED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDFB75AA1ED898C9002F5AED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFB75AB1ED898C9002F5AED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDFB75AF1ED898C9002F5AED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDFB75B01ED898C9002F5AED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDFB75C91ED898C9002F5AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDFB75CA1ED898C9002F5AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDFB75CC1ED898C9002F5AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Clover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.Clover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDFB75CD1ED898C9002F5AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Clover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.Clover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDFB75CF1ED898C9002F5AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CloverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.CloverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clover.app/Clover";
+			};
+			name = Debug;
+		};
+		DDFB75D01ED898C9002F5AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CloverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.CloverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clover.app/Clover";
+			};
+			name = Release;
+		};
+		DDFB75D21ED898C9002F5AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CloverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.CloverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Clover;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDFB75D31ED898C9002F5AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CloverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aswini.CloverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Clover;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDFB75991ED898C9002F5AED /* Build configuration list for PBXProject "Clover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFB75C91ED898C9002F5AED /* Debug */,
+				DDFB75CA1ED898C9002F5AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDFB75CB1ED898C9002F5AED /* Build configuration list for PBXNativeTarget "Clover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFB75CC1ED898C9002F5AED /* Debug */,
+				DDFB75CD1ED898C9002F5AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDFB75CE1ED898C9002F5AED /* Build configuration list for PBXNativeTarget "CloverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFB75CF1ED898C9002F5AED /* Debug */,
+				DDFB75D01ED898C9002F5AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDFB75D11ED898C9002F5AED /* Build configuration list for PBXNativeTarget "CloverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFB75D21ED898C9002F5AED /* Debug */,
+				DDFB75D31ED898C9002F5AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDFB75961ED898C9002F5AED /* Project object */;
+}
