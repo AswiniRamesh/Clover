@@ -15,6 +15,15 @@
 		DDFB75B11ED898C9002F5AED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFB75AF1ED898C9002F5AED /* LaunchScreen.storyboard */; };
 		DDFB75BC1ED898C9002F5AED /* CloverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75BB1ED898C9002F5AED /* CloverTests.m */; };
 		DDFB75C71ED898C9002F5AED /* CloverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75C61ED898C9002F5AED /* CloverUITests.m */; };
+		DDFB75D51ED89A48002F5AED /* AFNetworking-master in Resources */ = {isa = PBXBuildFile; fileRef = DDFB75D41ED89A48002F5AED /* AFNetworking-master */; settings = {ASSET_TAGS = (); }; };
+		DDFB75E41ED89A89002F5AED /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75D81ED89A89002F5AED /* AFHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
+		DDFB75E51ED89A89002F5AED /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75DB1ED89A89002F5AED /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DDFB75E61ED89A89002F5AED /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75DD1ED89A89002F5AED /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DDFB75E71ED89A89002F5AED /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75DF1ED89A89002F5AED /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DDFB75E81ED89A89002F5AED /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75E11ED89A89002F5AED /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DDFB75E91ED89A89002F5AED /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75E31ED89A89002F5AED /* AFURLSessionManager.m */; settings = {ASSET_TAGS = (); }; };
+		DDFB75EC1ED89BB6002F5AED /* CloverServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75EB1ED89BB6002F5AED /* CloverServiceManager.m */; settings = {ASSET_TAGS = (); }; };
+		DDFB75F01ED8A226002F5AED /* Acronym.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB75EF1ED8A226002F5AED /* Acronym.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,25 @@
 		DDFB75C21ED898C9002F5AED /* CloverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFB75C61ED898C9002F5AED /* CloverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloverUITests.m; sourceTree = "<group>"; };
 		DDFB75C81ED898C9002F5AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFB75D41ED89A48002F5AED /* AFNetworking-master */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "AFNetworking-master"; sourceTree = "<group>"; };
+		DDFB75D71ED89A89002F5AED /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		DDFB75D81ED89A89002F5AED /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		DDFB75D91ED89A89002F5AED /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		DDFB75DA1ED89A89002F5AED /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		DDFB75DB1ED89A89002F5AED /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		DDFB75DC1ED89A89002F5AED /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		DDFB75DD1ED89A89002F5AED /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		DDFB75DE1ED89A89002F5AED /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		DDFB75DF1ED89A89002F5AED /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		DDFB75E01ED89A89002F5AED /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		DDFB75E11ED89A89002F5AED /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		DDFB75E21ED89A89002F5AED /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		DDFB75E31ED89A89002F5AED /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		DDFB75EA1ED89BB6002F5AED /* CloverServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloverServiceManager.h; sourceTree = "<group>"; };
+		DDFB75EB1ED89BB6002F5AED /* CloverServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloverServiceManager.m; sourceTree = "<group>"; };
+		DDFB75ED1ED89C5E002F5AED /* CloverDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloverDefines.h; sourceTree = "<group>"; };
+		DDFB75EE1ED8A226002F5AED /* Acronym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Acronym.h; sourceTree = "<group>"; };
+		DDFB75EF1ED8A226002F5AED /* Acronym.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Acronym.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +109,19 @@
 		DDFB75951ED898C9002F5AED = {
 			isa = PBXGroup;
 			children = (
+				DDFB75D71ED89A89002F5AED /* AFHTTPSessionManager.h */,
+				DDFB75D81ED89A89002F5AED /* AFHTTPSessionManager.m */,
+				DDFB75D91ED89A89002F5AED /* AFNetworking.h */,
+				DDFB75DA1ED89A89002F5AED /* AFNetworkReachabilityManager.h */,
+				DDFB75DB1ED89A89002F5AED /* AFNetworkReachabilityManager.m */,
+				DDFB75DC1ED89A89002F5AED /* AFSecurityPolicy.h */,
+				DDFB75DD1ED89A89002F5AED /* AFSecurityPolicy.m */,
+				DDFB75DE1ED89A89002F5AED /* AFURLRequestSerialization.h */,
+				DDFB75DF1ED89A89002F5AED /* AFURLRequestSerialization.m */,
+				DDFB75E01ED89A89002F5AED /* AFURLResponseSerialization.h */,
+				DDFB75E11ED89A89002F5AED /* AFURLResponseSerialization.m */,
+				DDFB75E21ED89A89002F5AED /* AFURLSessionManager.h */,
+				DDFB75E31ED89A89002F5AED /* AFURLSessionManager.m */,
 				DDFB75A01ED898C9002F5AED /* Clover */,
 				DDFB75BA1ED898C9002F5AED /* CloverTests */,
 				DDFB75C51ED898C9002F5AED /* CloverUITests */,
@@ -103,6 +144,11 @@
 			children = (
 				DDFB75A41ED898C9002F5AED /* AppDelegate.h */,
 				DDFB75A51ED898C9002F5AED /* AppDelegate.m */,
+				DDFB75ED1ED89C5E002F5AED /* CloverDefines.h */,
+				DDFB75EA1ED89BB6002F5AED /* CloverServiceManager.h */,
+				DDFB75EB1ED89BB6002F5AED /* CloverServiceManager.m */,
+				DDFB75EE1ED8A226002F5AED /* Acronym.h */,
+				DDFB75EF1ED8A226002F5AED /* Acronym.m */,
 				DDFB75A71ED898C9002F5AED /* ViewController.h */,
 				DDFB75A81ED898C9002F5AED /* ViewController.m */,
 				DDFB75AA1ED898C9002F5AED /* Main.storyboard */,
@@ -117,6 +163,7 @@
 		DDFB75A11ED898C9002F5AED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DDFB75D41ED89A48002F5AED /* AFNetworking-master */,
 				DDFB75A21ED898C9002F5AED /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,6 +293,7 @@
 				DDFB75B11ED898C9002F5AED /* LaunchScreen.storyboard in Resources */,
 				DDFB75AE1ED898C9002F5AED /* Assets.xcassets in Resources */,
 				DDFB75AC1ED898C9002F5AED /* Main.storyboard in Resources */,
+				DDFB75D51ED89A48002F5AED /* AFNetworking-master in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFB75EC1ED89BB6002F5AED /* CloverServiceManager.m in Sources */,
+				DDFB75E61ED89A89002F5AED /* AFSecurityPolicy.m in Sources */,
+				DDFB75E81ED89A89002F5AED /* AFURLResponseSerialization.m in Sources */,
 				DDFB75A91ED898C9002F5AED /* ViewController.m in Sources */,
+				DDFB75E41ED89A89002F5AED /* AFHTTPSessionManager.m in Sources */,
+				DDFB75F01ED8A226002F5AED /* Acronym.m in Sources */,
+				DDFB75E91ED89A89002F5AED /* AFURLSessionManager.m in Sources */,
 				DDFB75A61ED898C9002F5AED /* AppDelegate.m in Sources */,
+				DDFB75E51ED89A89002F5AED /* AFNetworkReachabilityManager.m in Sources */,
 				DDFB75A31ED898C9002F5AED /* main.m in Sources */,
+				DDFB75E71ED89A89002F5AED /* AFURLRequestSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
